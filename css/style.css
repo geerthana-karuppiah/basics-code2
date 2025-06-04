@@ -1,0 +1,33 @@
+.list
+{
+ background-color:darksalmon;/* class selector*/
+}
+.list:hover
+{
+    background-color:skyblue ;/* hover selector*/
+}
+#id{
+
+    color: blueviolet; /*id selector*/
+}
+#one,#two,#three
+{
+    color: darkgoldenrod; /*group selector*/
+}
+/*  * universal tag
+    {
+      color:brown;
+    }
+*/
+.link
+{
+  text-decoration: none;
+  color: darkmagenta;
+  background-color:bisque;
+  padding: 10px;
+  border-radius: 20px;
+}
+.link:hover
+{
+    color: burlywood;
+}
