@@ -2,11 +2,50 @@
 <html lang="en">
 <head>
      <title>basic code</title>
-     <link rel="stylesheet" href="./css/style.css"> <!--external css-->
-     <style> <!-- internal css-->
+     <link rel="stylesheet" href="./css/style.css"><br> <!--external css-->
+     <style> 
         h3{
             color: chocolate;
           }
+         
+   <!--flex concept-->  
+    
+        .container
+        {
+          display:flex;
+          height: 40vh;
+          justify-content:right;
+          flex-direction: column;
+          align-items: start;
+        }
+        .item
+        {
+           padding: 10px;
+           height: 100px;
+           width: 400px;
+        }
+         .item-1
+        {
+           background-color: orange;
+        }
+        
+         .item-2
+        {
+            background-color:white;
+            
+        }
+         .item-3
+        {
+            background-color: green;
+           
+        }
+        img{
+            width: 100px;
+            float: left;
+            margin-left: 150px;
+        }
+
+
      </style>
 </head>
 <body>
@@ -37,8 +76,20 @@
     <audio src="" controls></audio><br><br>
     <video src="" width="200" controls></video><br><br>
     <iframe src="https://openai.com/index/chatgpt/" frameborder="1"></iframe><br><br>
-    <img src="/assets/code.png"width="200" alt="code"><br>
-    <h2 id="id">learning id selector</h2>
+    <img src="/assets/code.png" alt="code" ><br><br><br>
+    <h1 id="id">learning id selector</h1><br>
+    <span style="display: inline;background:orange;">inline</span>
+    <span style="display:block;background: whitesmoke;">block</span>
+    <span style="display: inline;background:green;width: 20px">inline-block</span><br><br>
+ </style> 
+
+ <div class="container">
+ <div class="item item-1"></div>
+ <div class="item item-2">
+    <img src="/assets/chakra.png">
+ </div>
+ <div class="item item-3"></div>
+
 
 
 </body>
