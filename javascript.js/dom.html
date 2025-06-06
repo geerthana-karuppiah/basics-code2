@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DOM</title>
+</head>
+<body>
+    <h1 id="message"> welcome to keerthis world!<br>To know about me </h1>
+    <button onclick="changetext()">Click Me!</button>
+    <input type="text" id="myInput" placeholder="Enter your name:">
+    <button onclick="addname()">add</button>
+        <ol id=" my friends"></ol>
+    <script>
+        function changetext() 
+        {
+            document.getElementById("message").innerHTML = "it me GEERTHANA KARUPPAIH";
+        }
+      
+        
+        function addname()
+        {
+            const name= document.getElementById("myInput").value;
+            const list=document.createElement("list");
+            list.textContent = name;
+            document.getElementById("my friends").append(list);}
+        </script>
+</body>
+</html>
